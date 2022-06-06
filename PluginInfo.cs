@@ -5,8 +5,8 @@
     /// </summary>
     internal class PluginInfo
     {
-        public const string GUID = "com.krono.gorillatag.hiddenmonke";
-        public const string Name = "HiddenMonke";
+        public const string GUID = "com.krono.gorillatag.amongus";
+        public const string Name = "Among Us";
         public const string Version = "1.0.0";
     }
 }
