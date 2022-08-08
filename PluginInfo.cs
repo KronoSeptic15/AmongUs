@@ -1,4 +1,4 @@
-﻿namespace HiddenMonke
+﻿namespace AmongUs
 {
     /// <summary>
     /// This class is used to provide information about your mod to BepInEx.

@@ -1,14 +1,15 @@
 ﻿using BepInEx;
-using BepInEx.Configuration;
-using System;
 using Utilla;
 using GorillaLocomotion;
-namespace HiddenMonke{
+
+namespace AmongUs
+{
 #pragma warning disable IDE0051 // IDE0051: Remove unused member
     [BepInDependency("org.legoandmars.gorillatag.utilla", "1.5.0")]
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     [ModdedGamemode("AMONGUS", "AmongUs", Utilla.Models.BaseGamemode.Infection)]
-    public class Plugin : BaseUnityPlugin{
+    public class Plugin : BaseUnityPlugin
+    {
         public static bool inRoom;
         void OnEnable()
         {
@@ -27,10 +28,14 @@ namespace HiddenMonke{
         public void OnJoin(string gamemode)
         {
             if (gamemode.Contains("AMONGUS"))
+            {
                 inRoom = true;
+            }
+
         }
         [ModdedGamemodeLeave]
-        public void OnLeave(string gamemode){
+        public void OnLeave(string gamemode)
+        {
             inRoom = false;
         }
     }

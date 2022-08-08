@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace HiddenMonke{
+namespace AmongUs {
     /// <summary>
     /// This class handles applying harmony patches to the game.
     /// You should not need to modify this class.
