@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OoZkBZDjv0WKHu2zcd9oYOy28TDZ4ns25CVOasRZwV/Ic2VJtFQksOGCtk0HePcCIOpgF7OFd6ZvH3XfKjI7ig==",
+  "success": true,
+  "projectFilePath": "B:\\Mod\\ShootGun\\AmongUs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dylmo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dylmo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
